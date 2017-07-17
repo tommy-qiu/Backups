@@ -10,6 +10,7 @@ import Foundation
 import SwiftyJSON
 
 internal func exerciseOne() {
+    print("HIIHI")
     // This would normally be network calls that return `NSData`. We'll show you how to do those soon!
     // In this case, we are using a local JSON file.
     guard let jsonURL = Bundle.main.url(forResource: "Random-User", withExtension: "json") else {
